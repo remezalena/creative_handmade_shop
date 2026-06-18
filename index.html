@@ -1063,7 +1063,7 @@ async function submitOrder() {
   };
 
   try {
-    await fetch('https://danit-n8n.duckdns.org/webhook-test/1cab1646-6871-4c43-ae1c-5ef9e9b89469', {
+    await fetch('https://danit-n8n.duckdns.org/webhook/1cab1646-6871-4c43-ae1c-5ef9e9b89469', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(orderData)
