@@ -5,6 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Ручна робота — Авторські прикраси</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/149080041.js"></script>
+<!-- End of HubSpot Embed Code -->
+<script src="https://js-eu1.hsforms.net/forms/embed/149080041.js" defer></script>
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -1063,7 +1067,7 @@ async function submitOrder() {
   };
 
   try {
-    await fetch('https://danit-n8n.duckdns.org/webhook/1cab1646-6871-4c43-ae1c-5ef9e9b89469', {
+    await fetch('https://danit-n8n.duckdns.org/webhook-test/1cab1646-6871-4c43-ae1c-5ef9e9b89469', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(orderData)
@@ -1094,5 +1098,6 @@ document.getElementById('modalOverlay').addEventListener('click', function(e) {
 
 init();
 </script>
+<div class="hs-form-frame" data-region="eu1" data-form-id="c56241aa-9faf-41d0-b5c3-26e78d15f1d3" data-portal-id="149080041"></div>
 </body>
 </html>
